@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "robot_msgs__py",
+		"source" : "/media/kishosiva/New Volume/project folder/AI_Voice_Assistant_Robot/ros2_ws/build/robot_msgs/robot_msgs__py"
+	}
+}

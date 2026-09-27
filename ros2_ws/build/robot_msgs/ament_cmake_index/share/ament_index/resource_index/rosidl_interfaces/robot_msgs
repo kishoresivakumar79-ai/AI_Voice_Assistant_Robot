@@ -1,0 +1,6 @@
+msg/Battery.idl
+msg/Battery.msg
+msg/RobotStatus.idl
+msg/RobotStatus.msg
+msg/VoiceText.idl
+msg/VoiceText.msg

@@ -1,0 +1,23 @@
+robot:
+  name: "Jarvis"
+  version: "1.0.0"
+  mode: "autonomous_voice"
+  ros:
+    domain_id: 42
+    bridge_port: 9090
+  sensors:
+    camera:
+      device_id: 0
+      resolution: [1920, 1080]
+      fps: 30
+    lidar:
+      port: "/dev/ttyUSB0"
+      baud_rate: 115200
+    imu:
+      bus: 1
+      address: 0x68
+  chassis:
+    wheel_radius: 0.04
+    wheel_base: 0.20
+    max_linear_velocity: 1.0
+    max_angular_velocity: 2.0

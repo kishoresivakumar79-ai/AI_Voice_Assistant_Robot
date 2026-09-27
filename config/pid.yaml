@@ -1,0 +1,17 @@
+pid:
+  left_motor:
+    kp: 1.5
+    ki: 0.05
+    kd: 0.10
+    output_min: -255
+    output_max: 255
+  right_motor:
+    kp: 1.5
+    ki: 0.05
+    kd: 0.10
+    output_min: -255
+    output_max: 255
+  steering:
+    kp: 0.8
+    ki: 0.01
+    kd: 0.05

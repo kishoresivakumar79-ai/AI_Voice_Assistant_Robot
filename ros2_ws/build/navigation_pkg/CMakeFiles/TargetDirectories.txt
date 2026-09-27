@@ -1,0 +1,14 @@
+/media/kishosiva/New Volume/project folder/AI_Voice_Assistant_Robot/ros2_ws/build/navigation_pkg/CMakeFiles/uninstall.dir
+/media/kishosiva/New Volume/project folder/AI_Voice_Assistant_Robot/ros2_ws/build/navigation_pkg/CMakeFiles/navigation_pkg_uninstall.dir
+/media/kishosiva/New Volume/project folder/AI_Voice_Assistant_Robot/ros2_ws/build/navigation_pkg/CMakeFiles/move_robot.dir
+/media/kishosiva/New Volume/project folder/AI_Voice_Assistant_Robot/ros2_ws/build/navigation_pkg/CMakeFiles/stop_robot.dir
+/media/kishosiva/New Volume/project folder/AI_Voice_Assistant_Robot/ros2_ws/build/navigation_pkg/CMakeFiles/turn_left.dir
+/media/kishosiva/New Volume/project folder/AI_Voice_Assistant_Robot/ros2_ws/build/navigation_pkg/CMakeFiles/turn_right.dir
+/media/kishosiva/New Volume/project folder/AI_Voice_Assistant_Robot/ros2_ws/build/navigation_pkg/CMakeFiles/pid_controller.dir
+/media/kishosiva/New Volume/project folder/AI_Voice_Assistant_Robot/ros2_ws/build/navigation_pkg/CMakeFiles/test.dir
+/media/kishosiva/New Volume/project folder/AI_Voice_Assistant_Robot/ros2_ws/build/navigation_pkg/CMakeFiles/edit_cache.dir
+/media/kishosiva/New Volume/project folder/AI_Voice_Assistant_Robot/ros2_ws/build/navigation_pkg/CMakeFiles/rebuild_cache.dir
+/media/kishosiva/New Volume/project folder/AI_Voice_Assistant_Robot/ros2_ws/build/navigation_pkg/CMakeFiles/list_install_components.dir
+/media/kishosiva/New Volume/project folder/AI_Voice_Assistant_Robot/ros2_ws/build/navigation_pkg/CMakeFiles/install.dir
+/media/kishosiva/New Volume/project folder/AI_Voice_Assistant_Robot/ros2_ws/build/navigation_pkg/CMakeFiles/install/local.dir
+/media/kishosiva/New Volume/project folder/AI_Voice_Assistant_Robot/ros2_ws/build/navigation_pkg/CMakeFiles/install/strip.dir

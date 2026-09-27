@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MARK 12 AI — 3D Voice Assistant Robot Interface</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Orbitron:wght@400;600;800;900&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Three.js Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="hud-container">
+        <!-- Top Status Bar -->
+        <header class="top-bar">
+            <div class="brand">
+                <i class="fa-solid fa-robot brand-icon"></i>
+                <span class="brand-title">MARK 12 AI ROBOT</span>
+                <span class="badge">v2.0 3D ANIMATED MODEL</span>
+            </div>
+            <div class="telemetry">
+                <div class="status-item"><i class="fa-solid fa-wifi"></i> <span id="ros-status">CONNECTED</span></div>
+                <div class="status-item"><i class="fa-solid fa-battery-three-quarters"></i> <span id="battery-status">95%</span></div>
+                <div class="status-item"><i class="fa-solid fa-microchip"></i> <span>CPU 14%</span></div>
+            </div>
+        </header>
+
+        <!-- Main Workspace -->
+        <main class="main-content">
+            <!-- Left Panel: 3D Hologram Avatar Display -->
+            <section class="avatar-card">
+                <div class="card-header">
+                    <h2><i class="fa-solid fa-eye"></i> 3D VISUALIZER</h2>
+                    <div class="avatar-controls">
+                        <button type="button" class="avatar-select-btn active" id="avatar-btn-1" title="Model 1 (Torso)">Model 1</button>
+                        <button type="button" class="avatar-select-btn" id="avatar-btn-2" title="Model 2 (Full Body)">Model 2</button>
+                    </div>
+                    <span class="pulse-indicator" id="voice-indicator"><i class="fa-solid fa-circle"></i> STANDBY</span>
+                </div>
+                
+                <div class="canvas-container">
+                    <!-- 3D Three.js WebGL Canvas -->
+                    <canvas id="avatar-canvas"></canvas>
+                    
+                    <!-- Overlay Image Avatar Graphic -->
+                    <div class="avatar-overlay">
+                        <img src="/image/images.jpeg" alt="Mark 12 3D Avatar" class="jarvis-img" id="jarvis-img">
+                    </div>
+
+                    <!-- Audio Waveform Visualization -->
+                    <div class="waveform-box" id="waveform-box">
+                        <div class="wave-bar"></div>
+                        <div class="wave-bar"></div>
+                        <div class="wave-bar"></div>
+                        <div class="wave-bar"></div>
+                        <div class="wave-bar"></div>
+                        <div class="wave-bar"></div>
+                        <div class="wave-bar"></div>
+                        <div class="wave-bar"></div>
+                    </div>
+                </div>
+
+                <!-- Avatar Status & Voice Output Indicator -->
+                <div class="speaking-output-box">
+                    <span class="output-label"><i class="fa-solid fa-volume-high"></i> MARK 12 SPEAKS:</span>
+                    <div class="speaking-text" id="speaking-text">"Standing by for voice or directional commands, Sir."</div>
+                </div>
+            </section>
+
+            <!-- Right Panel: Command Inputs & Conversation Log -->
+            <section class="control-card">
+                <div class="card-header">
+                    <h2><i class="fa-solid fa-terminal"></i> COMMAND INTERFACE</h2>
+                    <div class="audio-toggle">
+                        <label for="tts-toggle"><i class="fa-solid fa-bullhorn"></i> Voice Output:</label>
+                        <input type="checkbox" id="tts-toggle" checked>
+                    </div>
+                </div>
+
+                <!-- Input Text Box & Speech Mic Button -->
+                <div class="input-section">
+                    <form id="command-form" class="command-form">
+                        <input type="text" id="command-input" placeholder="Type command (e.g. 'Mark 12 move forward', 'move backward', 'turn left', 'turn right', 'wave hand')..." autocomplete="off">
+                        <button type="button" id="mic-btn" class="mic-btn" title="Click to Speak Command">
+                            <i class="fa-solid fa-microphone"></i>
+                        </button>
+                        <button type="submit" class="send-btn">
+                            <i class="fa-solid fa-paper-plane"></i> SEND
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Quick Action Preset Buttons -->
+                <div class="preset-buttons">
+                    <span class="preset-label">ROBOT DIRECTION & GESTURE COMMANDS:</span>
+                    <button class="preset-btn" data-cmd="Mark 12 move forward"><i class="fa-solid fa-arrow-up"></i> Forward</button>
+                    <button class="preset-btn" data-cmd="Mark 12 move backward"><i class="fa-solid fa-arrow-down"></i> Backward</button>
+                    <button class="preset-btn" data-cmd="Mark 12 turn left 90 degrees"><i class="fa-solid fa-arrow-left"></i> Left</button>
+                    <button class="preset-btn" data-cmd="Mark 12 turn right 90 degrees"><i class="fa-solid fa-arrow-right"></i> Right</button>
+                    <button class="preset-btn" data-cmd="Mark 12 wave right hand"><i class="fa-solid fa-hand-wave"></i> Wave Hand</button>
+                    <button class="preset-btn" data-cmd="Mark 12 detect faces in camera feed"><i class="fa-solid fa-user-astronaut"></i> Detect Faces</button>
+                    <button class="preset-btn" data-cmd="Mark 12 stop all motors"><i class="fa-solid fa-hand-paper"></i> Stop</button>
+                </div>
+
+                <!-- Real-time Console Transcript Log -->
+                <div class="transcript-container">
+                    <div class="transcript-header">
+                        <span><i class="fa-solid fa-list-check"></i> RECENT LOGS & INTENTS</span>
+                        <button id="clear-btn" class="clear-btn">Clear</button>
+                    </div>
+                    <div class="transcript-body" id="transcript-body">
+                        <div class="log-entry system-msg">
+                            <span class="time">[SYSTEM]</span>
+                            <span class="text">MARK 12 3D Robot Assistant online. Give text or voice commands to animate arms, legs, eyes, and mouth.</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

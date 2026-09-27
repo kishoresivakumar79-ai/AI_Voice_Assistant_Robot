@@ -1,0 +1,23 @@
+{
+  "package_name": "robot_msgs",
+  "output_dir": "/media/kishosiva/New Volume/project folder/AI_Voice_Assistant_Robot/ros2_ws/build/robot_msgs/rosidl_typesupport_fastrtps_c/robot_msgs",
+  "template_dir": "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource",
+  "idl_tuples": [
+    "/media/kishosiva/New Volume/project folder/AI_Voice_Assistant_Robot/ros2_ws/build/robot_msgs/rosidl_adapter/robot_msgs:msg/VoiceText.idl",
+    "/media/kishosiva/New Volume/project folder/AI_Voice_Assistant_Robot/ros2_ws/build/robot_msgs/rosidl_adapter/robot_msgs:msg/RobotStatus.idl",
+    "/media/kishosiva/New Volume/project folder/AI_Voice_Assistant_Robot/ros2_ws/build/robot_msgs/rosidl_adapter/robot_msgs:msg/Battery.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_fastrtps_c/__init__.py",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/idl__rosidl_typesupport_fastrtps_c.h.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/idl__type_support_c.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/msg__rosidl_typesupport_fastrtps_c.h.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/msg__type_support_c.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/srv__rosidl_typesupport_fastrtps_c.h.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/srv__type_support_c.cpp.em",
+    "/media/kishosiva/New Volume/project folder/AI_Voice_Assistant_Robot/ros2_ws/build/robot_msgs/rosidl_adapter/robot_msgs/msg/VoiceText.idl",
+    "/media/kishosiva/New Volume/project folder/AI_Voice_Assistant_Robot/ros2_ws/build/robot_msgs/rosidl_adapter/robot_msgs/msg/RobotStatus.idl",
+    "/media/kishosiva/New Volume/project folder/AI_Voice_Assistant_Robot/ros2_ws/build/robot_msgs/rosidl_adapter/robot_msgs/msg/Battery.idl"
+  ]
+}

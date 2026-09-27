@@ -1,0 +1,8 @@
+{
+  "package_name": "robot_msgs",
+  "non_idl_tuples": [
+    "/media/kishosiva/New Volume/project folder/AI_Voice_Assistant_Robot/ros2_ws/src/robot_msgs:msg/VoiceText.msg",
+    "/media/kishosiva/New Volume/project folder/AI_Voice_Assistant_Robot/ros2_ws/src/robot_msgs:msg/RobotStatus.msg",
+    "/media/kishosiva/New Volume/project folder/AI_Voice_Assistant_Robot/ros2_ws/src/robot_msgs:msg/Battery.msg"
+  ]
+}

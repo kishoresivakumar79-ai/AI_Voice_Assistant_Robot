@@ -1,0 +1,5 @@
+string mode
+bool emergency_stop
+string current_action
+float32 linear_velocity
+float32 angular_velocity

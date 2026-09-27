@@ -1,0 +1,15 @@
+voice:
+  wake_words:
+    - "hello jarvis"
+    - "jarvis"
+    - "hey jarvis"
+  speech_to_text:
+    engine: "whisper"
+    model: "small"
+    language: "en"
+    silence_threshold: 1.5
+  text_to_speech:
+    engine: "pyttsx3"
+    voice_gender: "female"
+    speech_rate: 165
+    volume: 0.9

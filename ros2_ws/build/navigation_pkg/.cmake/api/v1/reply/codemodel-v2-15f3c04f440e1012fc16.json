@@ -1,0 +1,115 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-8fd0d899d0acf7fb596c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "navigation_pkg",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "move_robot::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-move_robot-1b7c382b228e9fbdbb5c.json",
+					"name" : "move_robot",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "navigation_pkg_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navigation_pkg_uninstall-f33425316f6ae9c2ae72.json",
+					"name" : "navigation_pkg_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pid_controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pid_controller-aa505da3a13126f955eb.json",
+					"name" : "pid_controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stop_robot::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stop_robot-da40a210902490911008.json",
+					"name" : "stop_robot",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turn_left::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turn_left-290ec49b59463636ab6b.json",
+					"name" : "turn_left",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turn_right::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turn_right-a9aa26a658b49fd357b7.json",
+					"name" : "turn_right",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-a14f86289dc6b3d4a779.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/media/kishosiva/New Volume/project folder/AI_Voice_Assistant_Robot/ros2_ws/build/navigation_pkg",
+		"source" : "/media/kishosiva/New Volume/project folder/AI_Voice_Assistant_Robot/ros2_ws/src/navigation_pkg"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,24 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Java
+*.class
+
+# ROS2
+build/
+install/
+log/
+
+# Database
+*.db
+
+# Linux
+*.deb
+
+# VS Code
+.vscode/
+
+# Cache
+*.log

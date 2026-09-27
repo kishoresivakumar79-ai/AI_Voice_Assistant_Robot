@@ -1,0 +1,18 @@
+[0.031s] Invoking command in '/media/kishosiva/New Volume/project folder/AI_Voice_Assistant_Robot/ros2_ws/build/navigation_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /media/kishosiva/New Volume/project folder/AI_Voice_Assistant_Robot/ros2_ws/src/navigation_pkg -DCMAKE_INSTALL_PREFIX=/media/kishosiva/New Volume/project folder/AI_Voice_Assistant_Robot/ros2_ws/install/navigation_pkg
+[0.154s] -- The C compiler identification is GNU 11.4.0
+[0.260s] -- The CXX compiler identification is GNU 11.4.0
+[0.270s] -- Detecting C compiler ABI info
+[0.371s] -- Detecting C compiler ABI info - done
+[0.383s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.385s] -- Detecting C compile features
+[0.385s] -- Detecting C compile features - done
+[0.391s] -- Detecting CXX compiler ABI info
+[0.491s] -- Detecting CXX compiler ABI info - done
+[0.504s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.504s] -- Detecting CXX compile features
+[0.504s] -- Detecting CXX compile features - done
+[0.511s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.732s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.987s] -- Configuring done
+[0.995s] -- Generating done
+[0.998s] -- Build files have been written to: /media/kishosiva/New Volume/project folder/AI_Voice_Assistant_Robot/ros2_ws/build/navigation_pkg
